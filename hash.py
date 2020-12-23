@@ -24,7 +24,7 @@ inp_x, inp_m = hash(user_input)
 print(f'inp_x {inp_x}, inp_m {inp_m}')
 
 if ans_x == inp_x and ans_m == inp_m:
-    print("You hava password!!")
+    print("You hava a password!!")
     with open('./flag.txt') as f:
         print(f.read())
 
